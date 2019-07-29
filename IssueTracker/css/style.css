@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body {
+        font-family: 'Montserat', sans-serif;
+        font-size: 16px;
+    }
+.container {
+    display: grid;
+    /* height: 90vh;
+    width: 90vw; */
+    grid-template-columns: 1fr,1fr.1fr.1fr;
+    margin: 10px;  
+}
+
+/* -Start Nav- */
+nav{
+    display: grid;
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+    background: gray;
+    width: 100%;
+    height: 10vh;
+}
+ .logo  {
+    display: grid;
+    padding: 20px;
+    justify-content: start;
+    color: antiquewhite;
+}
+.navList{
+    display: grid;
+    align-content: center;
+    padding: 20px;
+    justify-content: end;
+    color: antiquewhite;
+    list-style: none;
+}
+
+/* -End Nav- */
+/* --------- */
+/* Showcase Content */
+
+main{
+    height: 90vh;
+    width: 100%;
+    background: #ff7f00;
+}
